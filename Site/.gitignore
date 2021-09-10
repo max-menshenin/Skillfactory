@@ -1,8 +1,0 @@
-.DS_Store # mac os .DS_Store хранятся различные настройки для папки
-.idea
-.vscode
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
