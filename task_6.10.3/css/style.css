@@ -4,7 +4,7 @@
 }
 
 .internet-text {
-    text-transform: lowercase;
+    text-transform: uppercase;
 }
 
 .browser-text {
@@ -14,9 +14,4 @@
 
 .server-text {
     color: red;
-}
-p {
-    font-size: large;
-    color: blue;
-
 }
