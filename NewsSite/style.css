@@ -19,7 +19,7 @@ h1 {
     font-family: 'Times New Roman', Times, serif;
 }
 
-footer { 
+footer {
     padding-top: 20px;
     padding-bottom: 60px;
     text-align: center;
@@ -29,7 +29,7 @@ footer .links {
     margin-bottom: 50px;
 }
 
-footer .links > a {
+footer .links>a {
     color: #636b6f;
     padding: 0 25px;
     font-size: 13px;
@@ -50,8 +50,7 @@ footer .links > a {
 }
 
 article {
-    width: 768px
-    margin: 0 auto 32px;
+    width: 768px margin: 0 auto 32px;
     padding: 6px 15px;
     border-bottom: 1px solid rgb(128, 128, 128);
 }
@@ -77,6 +76,11 @@ article h2 {
 
 article img {
     width: 100%;
-    height: 500px;
+    height: 300px;
     object-fit: contain;
 }
+
+article::before:nth-child(1) {
+    content: "NEW";
+}
+
