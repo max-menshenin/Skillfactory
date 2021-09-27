@@ -80,10 +80,10 @@ article img {
     object-fit: contain;
 }
 
-article:nth-child(0)::before {
+article:nth-child(1)::before {
     content: "New";
 }
 
-article:nth-child(1)::before {
+article:nth-child(2)::before {
     content: "New";
 }
