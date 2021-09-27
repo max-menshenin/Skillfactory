@@ -82,7 +82,6 @@ article img {
 
 article:nth-child(0)::before {
     content: "New";
-
 }
 
 article:nth-child(1)::before {
