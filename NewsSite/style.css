@@ -87,3 +87,6 @@ article:nth-child(1)::before {
 article:nth-child(2)::before {
     content: "New";
 }
+
+article:nth-child(even) {    background-color: #f2f4f7;
+}2
