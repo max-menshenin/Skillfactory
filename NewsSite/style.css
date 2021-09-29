@@ -82,10 +82,12 @@ article img {
 
 article:nth-child(1)::before {
     content: "New";
+    color: rgb(236, 12, 12);
 }
 
 article:nth-child(2)::before {
     content: "New";
+    color: rgb(236, 12, 12);
 }
 
 article:nth-child(even) {
